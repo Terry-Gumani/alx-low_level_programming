@@ -1,4 +1,5 @@
-## Tasks :page_with_curl:
+##projects:page_with_curl:
+
 
 * **0. Print list**
   * [0-print_dlistint.c](./0-print_dlinstint.c): C function that prints all the elements
@@ -57,12 +58,9 @@
 
 * **9. Crackme4**
   * [100-password](./100-password): Text file containing the password for the
-  [crackme4](https://github.com/holbertonschool/0x16.c) executable.
+  [crackme4]
 
 * **10. Palindromes**
   * [102-result](./102-result): Text file containing the largest palindrome made from a
   product of two three-digit numbers.
 
-* **11. Crackme5**
-  * [103-keygen.c](./103-keygen.c): C function that generates passwords for the
-  [crackme5](https://github.com/holbertonschool/0x16.c) executable.
