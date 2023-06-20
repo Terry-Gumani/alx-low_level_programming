@@ -32,7 +32,7 @@ them and how to use them with `$LD_LIBRARY_PATH`, `nm`, `ldd`, and `ldconfig`.
   dynamic library called `liball.so` from all the `.c` files in the current directory.
 
 * **2. Let's call C functions from Python**
-  * [100-operations.so](./100-operations.so): C dynamic library containing basic C
+  * [100-operations.c](./100-operations.c): C dynamic library containing basic C
   mathematical operation functions that can be called from Python.
   * Includes:
     * `int add(int a, int b);`
