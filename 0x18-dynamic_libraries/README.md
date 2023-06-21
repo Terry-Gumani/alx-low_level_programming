@@ -10,7 +10,7 @@ them and how to use them with `$LD_LIBRARY_PATH`, `nm`, `ldd`, and `ldconfig`.
 ## Tasks :page_with_curl:
 
 * **0. A library is not a luxury but one of the necessities of life**
-  * C dynamic library containing all the functions
+  * [libholberton.so](./libholberton.so): C dynamic library containing all the functions
   listed below:
     * `int _putchar(char c);`
     * `int _islower(int c);`
@@ -33,9 +33,6 @@ them and how to use them with `$LD_LIBRARY_PATH`, `nm`, `ldd`, and `ldconfig`.
     * `char *_strpbrk(char *s, char *accept);`
     * `char *_strstr(char *haystack, char *needle);`
 
-  * [holberton.h](./holberton.h): Header file containing the prototypes of all functions
-  included in `libholberton.so`.
-
 * **1. Without libraries what have we? We have no past and no future**
   * [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh): Bash script that creates a
   dynamic library called `liball.so` from all the `.c` files in the current directory.
@@ -48,4 +45,4 @@ them and how to use them with `$LD_LIBRARY_PATH`, `nm`, `ldd`, and `ldconfig`.
     * `int sub(int a, int b);`
     * `int mul(int a, int b);`
     * `int div(int a, int b);`
-    * `int mod(int a, int b);`
+    * `int mod(int a, int b)
